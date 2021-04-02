@@ -3,16 +3,7 @@
 
 # Hello World
 
-I am Paul Hoffman, a senior bioinformatician with the
-[Satija](https://satijalab.org) and [Lappalainen](https://tllab.org)
-Labs at the New York Genome Center. My work revolves around building
-software and for bioinformatic analyses, including an [R
-package](https://github.com/satijalab/seurat) for analyzing single-cell
-data, along with several
-[extension](https://github.com/satijalab/seurat-data)
-[packages](https://github.com/mojaveazure/seurat-disk), and a
-[pipeline](https://github.com/LappalainenLab/RNApipeline) for processing
-RNA-seq data. I work primarily in R and Python, but am always learning.
+I am Francisco Grisanti, a data scientist with the Samee Lab & Martin Lab at Baylor College of Medicine. I work primarily in R and Python, but I am always learning.
 
 ## Social
 
