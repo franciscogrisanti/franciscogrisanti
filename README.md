@@ -3,14 +3,16 @@
 
 # Hello World
 
-I am Francisco Grisanti, a data scientist with the Samee Lab & Martin Lab at Baylor College of Medicine. I work primarily in R and Python, but I am always learning.
+I am Francisco Grisanti, a data scientist with the Samee Lab & Martin
+Lab at Baylor College of Medicine. I work primarily in R and Python, but
+I am always learning.
 
 ## Social
 
 <!-- badges: start -->
 
 [![Connect on
-LinkedIn](https://img.shields.io/badge/--linkedin?label=LinkedIn&logo=LinkedIn&style=social)](https://www.linkedin.com/in/franciscogrisanti/)
+LinkedIn](https://img.shields.io/badge/--linkedin?label=LinkedIn&logo=LinkedIn&style=social)](https://www.linkedin.com/in/franciscogrisanti)
 
 <!-- badges: end -->
 
@@ -37,3 +39,7 @@ LinkedIn](https://img.shields.io/badge/--linkedin?label=LinkedIn&logo=LinkedIn&s
 
 ## Recent Activity
 
+  - Opened
+    [shazanfar/scHOT\#3](https://github.com/shazanfar/scHOT/issues/3)
+  - Opened
+    [theislab/squidpy\#297](https://github.com/theislab/squidpy/issues/297)
