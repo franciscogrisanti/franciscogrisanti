@@ -1,0 +1,43 @@
+name: Update README
+
+on:
+  push:
+  schedule:
+   - cron: '*/30 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: rocker/r-ubuntu:20.04
+    env:
+      RSPM: https://demo.rstudiopm.com/all/__linux__/focal/latest
+    steps:
+      - name: Install Git
+        run: apt update && apt install -y git
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Pandoc
+        run: apt update && apt install -y pandoc
+      - name: Configure RSPM
+        run: |
+          echo 'options(HTTPUserAgent = sprintf("R/%s R (%s)", getRversion(), paste(getRversion(), R.version$platform, R.version$arch, R.version$os)))' | tee -a /etc/R/Rprofile.site
+      - name: Install system dependencies
+        run: |
+          apt update && apt install -y \
+            libcurl4-openssl-dev \
+            libssl-dev
+      - name: Install dependencies
+        run: install.packages(c('rmarkdown', 'httr', 'jsonlite'), repos = Sys.getenv('RSPM'))
+        shell: Rscript {0}
+      - name: Knit README.Rmd
+        run: rmarkdown::render('README.Rmd')
+        shell: Rscript {0}
+      - name: Add changes
+        run: |
+          git diff
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add -A
+          git commit -m "Updated content" || exit 0
+          git push
+
