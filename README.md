@@ -41,5 +41,3 @@ LinkedIn](https://img.shields.io/badge/--linkedin?label=LinkedIn&logo=LinkedIn&s
 
   - Opened
     [shazanfar/scHOT\#3](https://github.com/shazanfar/scHOT/issues/3)
-  - Opened
-    [theislab/squidpy\#297](https://github.com/theislab/squidpy/issues/297)
