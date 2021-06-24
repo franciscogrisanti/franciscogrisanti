@@ -39,5 +39,4 @@ LinkedIn](https://img.shields.io/badge/--linkedin?label=LinkedIn&logo=LinkedIn&s
 
 ## Recent Activity
 
-  - Opened
-    [shazanfar/scHOT\#3](https://github.com/shazanfar/scHOT/issues/3)
+  -
