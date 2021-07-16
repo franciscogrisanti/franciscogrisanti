@@ -39,4 +39,5 @@ LinkedIn](https://img.shields.io/badge/--linkedin?label=LinkedIn&logo=LinkedIn&s
 
 ## Recent Activity
 
-  -
+  - Opened
+    [RexYing/gnn-model-explainer\#35](https://github.com/RexYing/gnn-model-explainer/issues/35)
