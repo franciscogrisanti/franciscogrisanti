@@ -3,8 +3,7 @@
 
 # Hello World
 
-I am Francisco Grisanti, a data scientist with the Samee Lab & Martin
-Lab at Baylor College of Medicine. I work primarily in R and Python, but
+I am Francisco Grisanti, a BIE with Amazon. I work primarily in Python, SQL & R, but
 I am always learning.
 
 ## Social
